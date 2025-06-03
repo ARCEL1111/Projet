@@ -1,0 +1,85 @@
+body {
+    font-family: Arial,sans-serif;
+    background-color: white;
+    color: rgb(9, 1, 1);
+    
+}
+header {
+    background-color: white;
+    color: rgb(111, 194, 250);
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+section{
+    border-radius:20px;
+    
+}
+footer{
+    border-radius:20px;
+    background-color: #498cca;
+}
+.logo{
+    width: 100px;
+    margin-top: 10px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: rgb(43, 99, 172);
+    color: white;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #498cca;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav ul li a:hover{
+    color: rgba(40, 87, 156, 0.169);
+}
+section{
+    background-color: rgb(120, 161, 248);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 0 4px 8px rgba(0,0,0,0.1);
+
+}
+button{
+    background-color:rgba(8,8,255,0.1);
+    color:white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #45a049;
+}
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: rgb(115, 172, 230);
+    color: white;
+}
+
+
